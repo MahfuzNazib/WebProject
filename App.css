@@ -130,6 +130,7 @@
 {
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .link-Button
@@ -193,4 +194,44 @@
 {
     background-color: red;
     border-radius: 10px;
+}
+
+.searchBox
+{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('Images/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.searchBox:focus
+{
+    width: 100%;
+}
+
+.posts
+{
+    border: 1px solid black;
+    width: 50px;
+
+}
+
+.posts-Date
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    color: black;
+    font-size: 15px;
+}
+
+.tblbgColor-Posts
+{
+    background-color: rgb(246, 235, 235);
 }
